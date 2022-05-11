@@ -3,4 +3,6 @@
 
 ## STS/Eclipse IDE
 **/.project
-	
+
+## tomcat-users.xml
+**.xml
