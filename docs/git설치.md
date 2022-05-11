@@ -42,7 +42,7 @@
 
 8. 설정(/etc/profile)
 # git
-PATH=$PATH:/usr/local/douzone2021/git/bin
+export PATH=$PATH:/usr/local/douzone2021/git/bin
 
 9. git 환경 설정
 
@@ -50,23 +50,6 @@ PATH=$PATH:/usr/local/douzone2021/git/bin
 # git config --global user.email "douzone.busan.bitacademy@gmail.com"
 
 10. git 사용하기
-
-# mkdir centos-practices
-# cd centos-practices
-# git init
-# git add -A
-# git commit -m "first commit"
-# git remote add origin https://github.com/douzone-busan-bitacademy/centos-practices.git
-# git push -u origin master
-
-================
-# git add -A
-# git commit -m "...."
-# git push 
-
-
-=========================================================
-
 
 # git clone https://github.com/douzone-busan-bitacademy/javastudy.git
 # cd javastudy

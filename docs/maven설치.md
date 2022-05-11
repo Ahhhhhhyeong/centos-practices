@@ -2,14 +2,14 @@
    /root
 
 1. 다운로드
-   # wget https://mirror.navercorp.com/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
+  ``` # wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz ```
    
 
 2. 압축 풀기
-   # wget apache-maven-3.8.1-bin.tar.gz
+   # tar cxfz apache-maven-3.8.5-bin.tar.gz
    
 3. 설치
-   # mv apache-maven-3.8.1 /usr/local/douzone/maven3.8
+   # mv apache-maven-3.8.5 /usr/local/douzone/maven3.8
    # ln -s /usr/local/douzone/maven3.8 /usr/local/douzone/maven
 
 4. 설정(/etc/profile)
